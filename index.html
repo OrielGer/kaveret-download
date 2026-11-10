@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>כוורת · הורדה לבודקים</title>
+<meta name="description" content="כוורת — צוות בוטים אישי על המחשב שלך. גרסת ניסיון ל-Windows.">
+<meta name="robots" content="noindex">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<link rel="icon" href="logo.svg" type="image/svg+xml">
+<style>
+  :root { --bg:#0b0a08; --card:#15130f; --line:rgba(255,255,255,.09); --text:#f4efe6; --muted:#b8ad9c; --honey:#f5b70a; --honey2:#ffcf4a; }
+  * { box-sizing:border-box; }
+  html,body { margin:0; }
+  body {
+    min-height:100vh; background:var(--bg); color:var(--text);
+    font-family:"Segoe UI","Rubik","Heebo","Arial Hebrew",Arial,system-ui,sans-serif; line-height:1.6;
+    background-image:
+      radial-gradient(900px 480px at 50% -10%, rgba(245,183,10,.20), transparent 70%),
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='97' viewBox='0 0 56 97'%3E%3Cpath d='M28 1 L55 16.5 L55 47.5 L28 63 L1 47.5 L1 16.5 Z M28 63 L28 96' fill='none' stroke='%23f5b70a' stroke-opacity='.07' stroke-width='1'/%3E%3C/svg%3E");
+    display:flex; align-items:center; justify-content:center; padding:32px 18px;
+  }
+  main { width:100%; max-width:560px; }
+  .brand { display:flex; align-items:center; justify-content:center; gap:14px; margin-bottom:10px; }
+  .brand img { width:64px; height:64px; filter:drop-shadow(0 8px 24px rgba(245,183,10,.25)); }
+  .brand h1 { font-size:44px; margin:0; letter-spacing:.5px; }
+  .tag { text-align:center; color:var(--muted); font-size:18px; margin:0 0 26px; }
+  .card { background:linear-gradient(180deg, rgba(255,255,255,.035), rgba(255,255,255,.01)); border:1px solid var(--line); border-radius:22px; padding:26px 24px; box-shadow:0 20px 60px rgba(0,0,0,.45); }
+  .badge { display:inline-block; font-size:13px; color:var(--honey2); border:1px solid rgba(245,183,10,.35); border-radius:999px; padding:3px 12px; margin-bottom:16px; }
+  .dl { display:flex; align-items:center; justify-content:center; gap:10px; width:100%; text-decoration:none; font-weight:700; font-size:20px; color:#1a1405; background:linear-gradient(180deg, var(--honey2), var(--honey)); border-radius:14px; padding:16px 18px; box-shadow:0 10px 30px rgba(245,183,10,.25); transition:transform .15s ease, box-shadow .15s ease; }
+  .dl:hover { transform:translateY(-1px); box-shadow:0 14px 36px rgba(245,183,10,.35); }
+  .dl:focus-visible, a:focus-visible, summary:focus-visible { outline:3px solid #fff; outline-offset:3px; }
+  .sub { text-align:center; color:var(--muted); font-size:14px; margin:10px 0 0; }
+  .other { display:flex; justify-content:center; gap:10px; flex-wrap:wrap; margin-top:14px; font-size:14px; }
+  .other span, .other a { color:var(--muted); border:1px solid var(--line); border-radius:10px; padding:6px 12px; text-decoration:none; }
+  .other a:hover { color:var(--text); border-color:rgba(245,183,10,.4); }
+  h2 { font-size:18px; margin:26px 0 10px; }
+  ol { margin:0; padding-inline-start:22px; }
+  ol li { margin:8px 0; }
+  b.k { color:var(--honey2); font-weight:600; }
+  details { margin-top:22px; color:var(--muted); font-size:13px; }
+  summary { cursor:pointer; }
+  code { direction:ltr; unicode-bidi:embed; display:block; overflow-wrap:anywhere; background:#0f0d0a; border:1px solid var(--line); border-radius:10px; padding:10px; margin-top:8px; font-size:12px; color:var(--text); }
+  footer { text-align:center; color:#7d7468; font-size:13px; margin-top:22px; }
+  footer p { margin:4px 0; }
+  @media (prefers-reduced-motion: reduce) { .dl { transition:none; } }
+</style>
+</head>
+<body>
+<main>
+  <div class="brand"><img src="logo.svg" alt="" width="64" height="64"><h1>כוורת</h1></div>
+  <p class="tag">צוות בוטים אישי על המחשב שלך, על מנויי ה-AI שכבר יש לך.</p>
+
+  <section class="card" aria-label="הורדה">
+    <span class="badge">גרסת ניסיון 2.30.1 · לבודקים</span>
+    <a class="dl" href="https://github.com/OrielGer/kaveret-download/releases/download/v2.30.1/Kaveret-Setup-2.30.1.exe" download>
+      ⬇ הורדה ל-Windows
+    </a>
+    <p class="sub">Windows 10 / 11 · 64-bit · ‏128 MB</p>
+    <div class="other">
+      <span>Mac — בקרוב</span>
+      <a href="https://github.com/OrielGer/kaveret-download/releases/download/v2.30.1/Kaveret-2.30.1-android.apk">אנדרואיד (ניסיוני)</a>
+    </div>
+
+    <h2>איך מתקינים</h2>
+    <ol>
+      <li>מורידים את הקובץ ופותחים אותו.</li>
+      <li>אם הדפדפן כותב שהקובץ "לא נפוץ" — בוחרים <b class="k">שמירה</b> (Keep).</li>
+      <li>אם מופיע חלון כחול <b class="k">"Windows protected your PC"</b> — לוחצים <b class="k">More info</b> ואז <b class="k">Run anyway</b>. זה קורה כי זו גרסת ניסיון שעוד לא חתומה דיגיטלית.</li>
+      <li>בפתיחה הראשונה אשף קצר עוזר לחבר את מנוע ה-AI שלך (למשל Claude, ChatGPT או Grok).</li>
+    </ol>
+
+    <details>
+      <summary>בדיקת שלמות הקובץ (SHA-256)</summary>
+      <code>ef44648c1bf44ca577b0d8a7621f42b86d9c5758a3c2cfa387d4e301fad57897  Kaveret-Setup-2.30.1.exe</code>
+    </details>
+  </section>
+
+  <footer>
+    <p lang="en" dir="ltr">Kaveret · tester build for Windows · Mac coming soon</p>
+    <p>© 2026 כוורת</p>
+  </footer>
+</main>
+</body>
+</html>
